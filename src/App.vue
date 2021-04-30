@@ -5,6 +5,7 @@
     <my-panel />
     <my-panel />
     <my-panel />
+    <p>test</p>
   </div>
 </template>
 
