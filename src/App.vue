@@ -1,15 +1,25 @@
 <template>
-<div class="text-sm">hellow vue</div>
+  <div class="bg-white">
+    <Nav />
+    <MyHeader/>
+    <my-panel />
+    <my-panel />
+    <my-panel />
+  </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
+import Nav from './components/Nav.vue'
+import MyHeader from './components/common/Header.vue'
+import MyPanel from './components/common/Panel.vue'
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
+    MyHeader,
+    MyPanel,
+    Nav
   }
 })
 </script>
