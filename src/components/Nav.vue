@@ -1,7 +1,7 @@
 <template>
   <nav class="w-auto py-2 px-4 bg-gray-700 text-white">
     <div class="flex flex-row justify-between p-2">
-      <span class="text-white">logo</span>
+      <span class="text-white">Riverside</span>
       <span class="text-current cursor-pointer select-none" @click="handleShowNav">Menu</span>
     </div>
     <ul class="w-auto transition-all" v-show="showNav">

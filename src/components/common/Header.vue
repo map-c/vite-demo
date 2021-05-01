@@ -1,7 +1,7 @@
 <template>
-<div class="my-5 px-4 text-black">
+<div class="mt-5 px-4 text-black flex flex-row justify-start items-center">
   <h1 class="text-3xl text-black">Page Heading</h1>
-  <h4 class="text-lg">Secondary Text</h4>
+  <h4 class="mx-2 self-end">Secondary Text</h4>
 </div>
 </template>
 
