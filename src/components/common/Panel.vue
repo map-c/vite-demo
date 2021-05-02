@@ -1,5 +1,5 @@
 <template>
-<div class="mb-4 border border-gray-400 rounded-md bg-white flex flex-col justify-evenly">
+<div class="border border-gray-400 rounded-md bg-white flex flex-col justify-evenly">
   <img class="rounded-t-md" src="https://via.placeholder.com/750x300" alt="">
   <div class="p-5 flex flex-col justify-evenly">
     <h2 class="text-black text-2xl mb-2">Post Title</h2>
